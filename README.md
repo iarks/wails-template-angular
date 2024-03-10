@@ -14,6 +14,12 @@ The configurations are provided in https://wails.io/docs/guides/angular
 "frontend:dev:serverUrl": "http://localhost:4200",
 ```
 
+## Usage
+
+To use the template, clone the template to you local development environment.
+
+Angular application in the `frontend` directory is a vanilla angular template.
+
 ## Live Development
 
 To run in live development mode, run `wails dev` in the project directory. This will run a Vite development server that will provide very fast hot reload of your frontend changes. If you want to develop in a browser and have access to your Go methods, there is also a dev server that runs on http://localhost:34115. Connect to this in your browser, and you can call your Go code from devtools.
